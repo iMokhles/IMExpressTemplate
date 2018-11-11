@@ -1,0 +1,32 @@
+{
+  "development": {
+    "host": "127.0.0.1",
+    "username": "root",
+    "password" : "root",
+    "database": "test_exj",
+    "dialect": "mysql"
+  },
+  "test": {
+    "host": "127.0.0.1",
+    "username": "root",
+    "password" : "root",
+    "database": "test_exj",
+    "dialect": "mysql"
+  },
+  "production": {
+    "host": "127.0.0.1",
+    "username": "root",
+    "password" : "root",
+    "database": "test_exj",
+    "dialect": "mysql"
+  },
+  "defaultEnv": "local",
+  "local": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password" : "root",
+    "database": "test_exj",
+    "driver": "mysql",
+    "multipleStatements": true
+  }
+}
