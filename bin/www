@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('../bootstrap/app');
 var debug = require('debug')('imexpresstemplate:server');
 var http = require('http');
 
