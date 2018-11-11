@@ -1,9 +1,9 @@
 function handle(req, res, next) {
     // Implement the middleware function based on the options object
     if (req.session.user && req.cookies.session_xid) {
-        next();
+        return res.redirect('/home');
     }
-    return res.redirect('/login');
+    next();
 }
 
 module.exports = handle;

@@ -62,15 +62,12 @@ html(lang='en')
             }
     body
         .flex-center.position-ref.full-height
-            //| @if (Route::has('login'))
-            //.top-right.links
-            //    | @auth
-            //    a(href="{{ url('/home') }}") Home
-            //    |  @else
-            //    a(href="{{ route('login') }}") Login
-            //    a(href="{{ route('register') }}") Register
-            //    |  @endauth
-            //|  @endif
+            .top-right.links
+                if authenticated
+                    a(href="/home") Home
+                else
+                    a(href="/login") Login
+                    a(href="/register") Register
             .content
                 .title.m-b-md #{title}
                 .links
