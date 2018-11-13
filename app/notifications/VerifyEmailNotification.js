@@ -25,7 +25,7 @@ function handle(user, act_token, link) {
             title: 'Verify Email Address',
             message: 'Please click the button below to verify your email address.',
             button_title: 'Verify Now!',
-            button_link: '', // TODO: generate verify link
+            button_link: link,
             under_button: 'If you did not create an account, no further action is required.',
             facebook_link: config.get('FACEBOOK_URL'),
             twitter_link: config.get('TWITTER_URL'),

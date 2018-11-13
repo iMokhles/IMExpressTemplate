@@ -2,8 +2,11 @@ var kernel = require('../../kernel');
 var config = require("config");
 
 function getIndexPage(req, res) {
+    var isLoggedIn;
+    isLoggedIn = (req.session.user && req.cookies.session_xid);
     res.render('welcome', {
-        title: config.get('APP_NAME')
+        title: config.get('APP_NAME'),
+        authenticated: isLoggedIn,
     });
 }
 function getHomePage(req, res) {

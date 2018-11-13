@@ -24,7 +24,7 @@ function sendEmail(user, reset_token, link) {
             title: 'Reset Password',
             message: 'You are receiving this email because we received a password reset request for your account.',
             button_title: 'Reset!',
-            button_link: link, // TODO: generate reset link
+            button_link: link,
             under_button: 'If you did not request a password reset, no further action is required.',
             facebook_link: config.get('FACEBOOK_URL'),
             twitter_link: config.get('TWITTER_URL'),

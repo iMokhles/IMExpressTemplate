@@ -14,7 +14,6 @@ function getLinkRequestForm(req, res) {
 }
 
 function postResetLinkEmail(req, res) {
-// TODO: post reset link email
     console.log("postResetLinkEmail 1");
     User.findOne({ where: {email: req.body.email} }).then(user => {
         console.log("postResetLinkEmail 2");

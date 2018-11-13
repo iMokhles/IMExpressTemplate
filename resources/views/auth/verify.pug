@@ -7,7 +7,7 @@ block content
                 .card
                     .card-header Verify Your Email Address
                     .card-body
-                        if (typeof session.resent !== "undefined")
+                        if (typeof session.resent !== "undefined" && session.resent === true)
                             .alert.alert-success(role='alert')
                                 | A fresh verification link has been sent to your email address.
                         | Before proceeding, please check your email for a verification link.

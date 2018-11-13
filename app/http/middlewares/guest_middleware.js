@@ -7,6 +7,8 @@ function handle(req, res, next) {
             res.locals.user = req.session.user;
             return res.redirect('/home');
         } else {
+            res.locals.session = req.session;
+            res.locals.user = req.session.user;
             return res.redirect('/verify');
         }
     } else {

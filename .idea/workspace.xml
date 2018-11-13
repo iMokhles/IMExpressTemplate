@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a49fba9-a032-483f-8e0c-86551a965b0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/auth/ForgotPasswordController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/auth/ForgotPasswordController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/auth/ResetPasswordController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/auth/ResetPasswordController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/auth/VerificationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/auth/VerificationController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/controllers/web/HomeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/controllers/web/HomeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/middlewares/auth_middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/middlewares/auth_middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/middlewares/guest_middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/middlewares/guest_middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/middlewares/user_verified_middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/middlewares/user_verified_middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/notifications/VerifyEmailNotification.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/notifications/VerifyEmailNotification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.pug" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.pug" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-748993571">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="3" />
+          <entry key="js" value="240" />
+          <entry key="json" value="17" />
+          <entry key="md" value="1" />
+          <entry key="migrate" value="2" />
+          <entry key="pug" value="61" />
+          <entry key="sequelizerc" value="6" />
+          <entry key="sh" value="4" />
+          <entry key="snyk" value="2" />
+          <entry key="ts" value="3" />
+          <entry key="www" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="4" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="16" />
+          <entry key="Jade" value="61" />
+          <entry key="JavaScript" value="245" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="TypeScript" value="3" />
+          <entry key="tsconfig" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="3" />
+          <entry key="js" value="7007" />
+          <entry key="json" value="184" />
+          <entry key="md" value="1" />
+          <entry key="migrate" value="72" />
+          <entry key="pug" value="828" />
+          <entry key="sequelizerc" value="27" />
+          <entry key="sh" value="131" />
+          <entry key="snyk" value="4" />
+          <entry key="txt" value="984" />
+          <entry key="www" value="67" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="131" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="184" />
+          <entry key="Jade" value="828" />
+          <entry key="JavaScript" value="7074" />
+          <entry key="PLAIN_TEXT" value="1088" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/notifications/VerifyEmailNotification.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-182">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/http/controllers/auth/VerificationController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/http/controllers/auth/ForgotPasswordController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/notifications/ResetPasswordNotification.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/http/middlewares/start_session_middleware.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="Pug File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>throttle_middleware</find>
+      <find>ExpressJS</find>
+      <find>If you did not create an account, no further action is required.</find>
+      <find>faceb</find>
+      <find>UserPasswordReset</find>
+      <find>new Sequelize</find>
+      <find>configs</find>
+      <find>bcrypt</find>
+      <find>res.re</find>
+      <find>mailTransporter</find>
+      <find>send</find>
+      <find>auth</find>
+      <find>infoblock</find>
+      <find>mobile</find>
+      <find>/images</find>
+      <find>.html</find>
+      <find>session_middle</find>
+      <find>moment</find>
+      <find>getResetForm</find>
+      <find>status_msg</find>
+      <find>status_type</find>
+      <find>compare</find>
+      <find>/login</find>
+      <find>config.</find>
+      <find>authenticated</find>
+      <find>user_verified</find>
+      <find>resent</find>
+      <find>update(</find>
+      <find>save</find>
+      <find>generateRouteLink</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>reset_status_msg</replace>
+      <replace>reset_status_type</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/database/migrations/20181111123420-create-user.js" />
+        <option value="$PROJECT_DIR$/migrate.sh" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.js" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/layout.pug" />
+        <option value="$PROJECT_DIR$/resources/views/home.pug" />
+        <option value="$PROJECT_DIR$/resources/views/layout.pug" />
+        <option value="$PROJECT_DIR$/app/exceptions/index.js" />
+        <option value="$PROJECT_DIR$/routes/web.js" />
+        <option value="$PROJECT_DIR$/app/http/middlewares/throttle_middleware.js" />
+        <option value="$PROJECT_DIR$/resources/views/auth/password/email.js" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.pug" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.pug" />
+        <option value="$PROJECT_DIR$/resources/views/errors/error_old.pug" />
+        <option value="$PROJECT_DIR$/routes/auth.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config/app.js" />
+        <option value="$PROJECT_DIR$/resources/mails/single_action/subject.pug" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/helpers/error.js" />
+        <option value="$PROJECT_DIR$/database/connection.js" />
+        <option value="$PROJECT_DIR$/resources/views/errors/error.pug" />
+        <option value="$PROJECT_DIR$/config/mail.js" />
+        <option value="$USER_HOME$/Downloads/New email (2)/email.html" />
+        <option value="$PROJECT_DIR$/resources/mails/single_action/html.pug" />
+        <option value="$PROJECT_DIR$/app/helpers/mailer.js" />
+        <option value="$PROJECT_DIR$/resources/views/auth/password/email.pug" />
+        <option value="$PROJECT_DIR$/app/http/middlewares/session_middleware.js" />
+        <option value="$PROJECT_DIR$/app/http/kernel.js" />
+        <option value="$PROJECT_DIR$/app/http/middlewares/start_session_middleware.js" />
+        <option value="$PROJECT_DIR$/bootstrap/app.js" />
+        <option value="$PROJECT_DIR$/app/http/controllers/auth/LoginController.js" />
+        <option value="$PROJECT_DIR$/app/http/controllers/auth/RegisterController.js" />
+        <option value="$PROJECT_DIR$/database/seeds/20181111231825-users_table_seeder.js" />
+        <option value="$PROJECT_DIR$/database/migrations/20181111123421-users_password_resets.js" />
+        <option value="$PROJECT_DIR$/.sequelizerc" />
+        <option value="$PROJECT_DIR$/app/models/userPasswordReset.js" />
+        <option value="$PROJECT_DIR$/app/helpers/string.js" />
+        <option value="$PROJECT_DIR$/app/helpers/date.js" />
+        <option value="$PROJECT_DIR$/app/models/user.js" />
+        <option value="$PROJECT_DIR$/app/notifications/ResetPasswordNotification.js" />
+        <option value="$PROJECT_DIR$/resources/views/auth/password/reset.pug" />
+        <option value="$PROJECT_DIR$/app/http/controllers/auth/ForgotPasswordController.js" />
+        <option value="$PROJECT_DIR$/config/default.json" />
+        <option value="$PROJECT_DIR$/app/http/controllers/auth/ResetPasswordController.js" />
+        <option value="$PROJECT_DIR$/app/http/controllers/web/HomeController.js" />
+        <option value="$PROJECT_DIR$/app/http/middlewares/auth_middleware.js" />
+        <option value="$PROJECT_DIR$/app/http/middlewares/guest_middleware.js" />
+        <option value="$PROJECT_DIR$/app/http/middlewares/user_verified_middleware.js" />
+        <option value="$PROJECT_DIR$/app/notifications/VerifyEmailNotification.js" />
+        <option value="$PROJECT_DIR$/resources/views/auth/verify.pug" />
+        <option value="$PROJECT_DIR$/app/http/controllers/auth/VerificationController.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1439" />
+    <option name="height" value="833" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="notifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mails" type="462c0819:PsiDirectoryNode" />
+              <item name="single_action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="password" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMExpressTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMExpressTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.0.0" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/http/middlewares" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/app/notifications" />
+      <recent name="$PROJECT_DIR$/resources/mails/single_action" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/errors" />
+      <recent name="$PROJECT_DIR$/app/http/middlewares" />
+      <recent name="$PROJECT_DIR$/app/http" />
+      <recent name="$PROJECT_DIR$/app/http/middlewares/user" />
+      <recent name="$PROJECT_DIR$/bootstrap" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a49fba9-a032-483f-8e0c-86551a965b0a" name="Default Changelist" comment="" />
+      <created>1541888510241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541888510241</updated>
+      <workItem from="1541888526869" duration="4008000" />
+      <workItem from="1541898186463" duration="58010000" />
+      <workItem from="1542065448416" duration="12582000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1541962325550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541962325551</updated>
+    </task>
+    <task id="LOCAL-00002" summary="improved routes structure, put the app.js under bootstrap folder and improved user model with more checks and bcrypt support for hashing password before creating new user">
+      <created>1541973284822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541973284822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added app exceptions  to handle app errors, added new kernel file under app/http to handle app's middlewares, added new sesion, auth, throttle and guest middlewares to serve your needs, new basic error view.">
+      <created>1541978110143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541978110143</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added mailer, date, string helpers and added a fully function reset password system ( needs improvements ^_^ ) with other auth controllers, added some middleware ( which needs improvements too ^_^ ), improved models and added seeders, also added same ui as laravel ( login-register-reset-verify-home ) i guess that i'm in love with Laravel &lt;3,&#10;added new auth routes and updated routes to use controller functions">
+      <created>1542117656802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542117656802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74600000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="23" width="1439" height="833" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20944993" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4275862" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="improved routes structure, put the app.js under bootstrap folder and improved user model with more checks and bcrypt support for hashing password before creating new user" />
+    <MESSAGE value="added app exceptions  to handle app errors, added new kernel file under app/http to handle app's middlewares, added new sesion, auth, throttle and guest middlewares to serve your needs, new basic error view." />
+    <MESSAGE value="added mailer, date, string helpers and added a fully function reset password system ( needs improvements ^_^ ) with other auth controllers, added some middleware ( which needs improvements too ^_^ ), improved models and added seeders, also added same ui as laravel ( login-register-reset-verify-home ) i guess that i'm in love with Laravel &lt;3,&#10;added new auth routes and updated routes to use controller functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mailer, date, string helpers and added a fully function reset password system ( needs improvements ^_^ ) with other auth controllers, added some middleware ( which needs improvements too ^_^ ), improved models and added seeders, also added same ui as laravel ( login-register-reset-verify-home ) i guess that i'm in love with Laravel &lt;3,&#10;added new auth routes and updated routes to use controller functions" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/pug/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/error.js" />
+    <entry file="file://$PROJECT_DIR$/database/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/errors/error_old.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/errors/error.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/http-errors/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/New email (2)/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/mails/single_action/html.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="261" column="60" lean-forward="true" selection-start-line="261" selection-start-column="60" selection-end-line="261" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/email-templates/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="270" lean-forward="true" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/exceptions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/mails/single_action/subject.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="904" selection-start-line="904" selection-end-line="904" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11800" column="4" selection-start-line="11800" selection-start-column="4" selection-end-line="11800" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express-session/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="390" column="34" selection-start-line="390" selection-start-column="34" selection-end-line="390" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/controllers/auth/LoginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/controllers/auth/RegisterController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/kernel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/mailer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/20181111123420-create-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/20181111123421-users_password_resets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrate.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sequelizerc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/userPasswordReset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/20181111231825-users_table_seeder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/string.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/password/email.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" column="105" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="11" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/password/reset.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/default.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/controllers/web/HomeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/middlewares/start_session_middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/middlewares/user_verified_middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/middlewares/throttle_middleware.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/middlewares/session_middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/middlewares/guest_middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/middlewares/auth_middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/notifications/VerifyEmailNotification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/controllers/auth/ResetPasswordController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/notifications/ResetPasswordNotification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/verify.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/controllers/auth/ForgotPasswordController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/controllers/auth/VerificationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

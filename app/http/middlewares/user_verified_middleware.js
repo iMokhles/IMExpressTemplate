@@ -7,8 +7,11 @@ function handle(req, res, next) {
             res.locals.user = req.session.user;
             next();
         }
+        res.locals.session = req.session;
+        res.locals.user = req.session.user;
+        return res.redirect('/verify');
     }
-    return res.redirect('/verify');
+    return res.redirect('/login');
 }
 
 module.exports = handle;

@@ -25,7 +25,7 @@ function getResetForm(req, res) {
 
             const a = moment(userPasswrdReset.createdAt);
             const b = moment(date.getFormattedNow());
-            const twoHoursAgo = b.subtract(20, 'minutes');
+            const twoHoursAgo = b.subtract(config.get('RESET_PASSWORD_MAX_MINUTES'), 'minutes');
             if (twoHoursAgo.isAfter(a)) {
                 req.params = null;
                 res.redirect('/home');
@@ -44,7 +44,6 @@ function getResetForm(req, res) {
 }
 
 function postReset(req, res) {
-// TODO: post reset request
     const resetToken = req.body.token;
     const email = req.body.email;
     const password = req.body.password;
