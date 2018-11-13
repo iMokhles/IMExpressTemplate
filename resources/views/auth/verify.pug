@@ -1,0 +1,17 @@
+extends ../layouts/layout
+
+block content
+    .container
+        .row.justify-content-center
+            .col-md-8
+                .card
+                    .card-header Verify Your Email Address
+                    .card-body
+                        if (typeof session.resent !== "undefined")
+                            .alert.alert-success(role='alert')
+                                | A fresh verification link has been sent to your email address.
+                        | Before proceeding, please check your email for a verification link.
+                        br
+                        | If you did not receive the email,
+                        a(href="/verify/send") click here to request another.
+

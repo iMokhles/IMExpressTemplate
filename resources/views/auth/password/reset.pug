@@ -1,0 +1,33 @@
+extends ../../layouts/layout
+
+block content
+    .container
+        .row.justify-content-center
+            .col-md-8
+                .card
+                    .card-header Reset Password
+                    .card-body
+                        if (typeof session.reset_status_msg !== "undefined")
+                            #{console.log("STSTS: " + session.reset_status_msg)}
+                            .alert(class="alert-" + session.reset_status_type role='alert') #{session.reset_status_msg}
+
+                        form(method='POST', action="/password/reset")
+                            input(type='hidden', name='_csrf', value=_csrf)
+                            input(type='hidden', name='token', value=token)
+                            .form-group.row
+                                label.col-sm-4.col-form-label.text-md-right(for='email') E-Mail Address
+                                .col-md-6
+                                    input#email.form-control(type='email' name='email' required='')
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='password') Password
+                                .col-md-6
+                                    input#password.form-control(type='password' name='password' required='')
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='password-confirm') Confirm Password
+                                .col-md-6
+                                    input#password-confirm.form-control(type='password' name='password_confirmation' required='')
+
+                            .form-group.row.mb-0
+                                .col-md-6.offset-md-4
+                                    button.btn.btn-primary(type='submit')
+                                        | Reset Password

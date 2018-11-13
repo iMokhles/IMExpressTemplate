@@ -1,11 +1,6 @@
-var session = require("express-session");
-var config = require("config");
+function handle(req, res, next) {
+    res.locals.session = req.session;
+    next();
+}
 
-const session_middleware = session({
-    key: 'session_xid',
-    secret: config.get("APP_KEY"),
-    resave: false,
-    saveUninitialized: true,
-    cookie: { secure: false }
-});
-module.exports = session_middleware;
+module.exports = handle;

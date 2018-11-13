@@ -1,3 +1,7 @@
 {
-  "APP_KEY": "nV0vkX0qph97G9bWhHRrE6qDSo"
+  "APP_NAME": "ExpressJS",
+  "APP_KEY": "nV0vkX0qph97G9bWhHRrE6qDSo",
+  "FACEBOOK_URL": "https://facebook.com/",
+  "TWITTER_URL": "https://twitter.com/",
+  "YOUTUBE_URL": "https://youtube.com/"
 }

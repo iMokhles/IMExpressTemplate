@@ -3,6 +3,12 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
       return queryInterface.createTable('users_password_reset', {
+          id: {
+              allowNull: false,
+              autoIncrement: true,
+              primaryKey: true,
+              type: Sequelize.INTEGER.UNSIGNED
+          },
           email: {
               allowNull: false,
               type: Sequelize.STRING,

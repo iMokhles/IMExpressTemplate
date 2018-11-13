@@ -1,0 +1,14 @@
+extends layouts/layout
+
+block content
+    .container
+        .row.justify-content-center
+            .col-md-8
+                .card
+                    .card-header Home
+                    .card-body
+                        if (typeof session.status !== "undefined")
+                            .alert.alert-success(role='alert')
+                                #{session.status}
+
+                        | You are logged in!

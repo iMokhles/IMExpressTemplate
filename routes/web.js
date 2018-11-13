@@ -1,11 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var homeController = require('../app/http/controllers/web/HomeController');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-    var isLoggedIn;
-    isLoggedIn = (req.session.user && req.cookies.session_xid);
-    res.render('welcome', { title: 'ExpressJS', authenticated: isLoggedIn});
-});
+router.get('/', homeController.getIndexPage);
+router.get('/home', homeController.getHomePage);
 
 module.exports = router;

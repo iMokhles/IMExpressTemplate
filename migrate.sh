@@ -3,9 +3,14 @@
 #node node_modules/.bin/db-migrate create create_users_password_resets --migrations-dir "./database/migrations" --config "./config/database.json"
 #node node_modules/.bin/db-migrate up --migrations-dir "./database/migrations" --config "./config/database.json"
 
-node node_modules/.bin/sequelize model:generate --name User --attributes name:string,email:string,password:string,remember_token:string,emailVerifiedAt:date
+# node node_modules/.bin/sequelize model:generate --name User --attributes name:string,email:string,password:string,remember_token:string,emailVerifiedAt:date
 # ,created_at:timestamp,updated_at:timestamp,email_verified_at:timestamp
-node node_modules/.bin/sequelize migration:generate --name users_password_resets
+# node node_modules/.bin/sequelize migration:generate --name users_password_resets
+# node node_modules/.bin/sequelize seed:generate --name users_table_seeder
+
+ node node_modules/.bin/sequelize db:migrate
+ node node_modules/.bin/sequelize db:seed:all
+
 
 #CREATE TABLE `users` (
 #  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,

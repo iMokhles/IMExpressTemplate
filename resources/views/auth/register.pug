@@ -1,0 +1,31 @@
+extends ../layouts/layout
+
+block content
+    .container
+        .row.justify-content-center
+            .col-md-8
+                .card
+                    .card-header Register
+                    .card-body
+                        form(method='POST', action="/register")
+                            input(type='hidden', name='_csrf', value=_csrf)
+                            .form-group.row
+                                label.col-sm-4.col-form-label.text-md-right(for='name') Name
+                                .col-md-6
+                                    input#name.form-control(type='text' name='name' required='' autofocus='')
+                            .form-group.row
+                                label.col-sm-4.col-form-label.text-md-right(for='email') E-Mail Address
+                                .col-md-6
+                                    input#email.form-control(type='email' name='email' required='')
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='password') Password
+                                .col-md-6
+                                    input#password.form-control(type='password' name='password' required='')
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='password-confirm') Confirm Password
+                                .col-md-6
+                                    input#password-confirm.form-control(type='password' name='password_confirmation' required='')
+                            .form-group.row.mb-0
+                                .col-md-6.offset-md-4
+                                    button.btn.btn-primary(type='submit')
+                                        | Register

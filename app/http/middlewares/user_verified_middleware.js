@@ -6,13 +6,9 @@ function handle(req, res, next) {
             res.locals.session = req.session;
             res.locals.user = req.session.user;
             next();
-        } else {
-            return res.redirect('/verify');
         }
     }
-    res.locals.session = null;
-    res.locals.user = null;
-    return res.redirect('/login');
+    return res.redirect('/verify');
 }
 
 module.exports = handle;

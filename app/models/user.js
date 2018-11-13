@@ -1,52 +1,73 @@
 'use strict';
+var Sequelize = require('sequelize');
+var sequelize = require('../../database/connection');
 var bcrypt = require('bcrypt');
-module.exports = (sequelize, DataTypes) => {
-  const User = sequelize.define('User', {
-      id: {
-          autoIncrement: true,
-          primaryKey: true,
-          type: DataTypes.INTEGER.UNSIGNED
-      },
-      name: {
-          type:   DataTypes.STRING,
-          allowNull: false,
-          unique: true,
-          validate: {
-              len: {
-                  args: [2, 50],
-                  msg: 'Please, enter a username between 2 and 50 characters.'
-              }
-          }
-      },
-      email: {
-          type: DataTypes.STRING,
-          unique: true,
-          isEmail: true,
-          allowNull: false
-      },
-      password: {
-          type: DataTypes.STRING,
-          allowNull: false,
-      },
-      remember_token: {
-          type:   DataTypes.STRING(100)
-      },
-      emailVerifiedAt: {
-          allowNull: true,
-          type:   DataTypes.DATE
-      }
-  }, {
-      hooks: {
-          beforeCreate: (user) => {
-              const salt = bcrypt.genSaltSync();
-              user.password = bcrypt.hashSync(user.password, salt);
-          }
-      }
-  });
 
-  User.associate = function(models) {
-    // associations can be defined here
-    //   User.belongsTo(models.MODEL_NAME, {foreignKey: 'userId' });
-  };
-  return User;
-};
+const User = sequelize.define('User', {
+    id: {
+        field: 'id',
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.DataTypes.INTEGER.UNSIGNED,
+    },
+    name: {
+        field: 'name',
+        type:   Sequelize.DataTypes.STRING,
+        allowNull: false,
+        validate: {
+            len: {
+                args: [3, 50],
+                msg: 'Please, enter a name between 3 and 50 characters only.'
+            }
+        }
+    },
+    email: {
+        field: 'email',
+        type: Sequelize.DataTypes.STRING,
+        unique: true,
+        isEmail: true,
+        allowNull: false
+    },
+    password: {
+        field: 'password',
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false,
+    },
+    rememberToken: {
+        field: 'rememberToken',
+        type:   Sequelize.DataTypes.STRING(100)
+    },
+    verificationToken: {
+        field: 'verificationToken',
+        allowNull: true,
+        type:   Sequelize.DataTypes.STRING
+    },
+    emailVerifiedAt: {
+        field: 'emailVerifiedAt',
+        allowNull: true,
+        type:   Sequelize.DataTypes.DATE
+    },
+    createdAt: {
+        field: 'createdAt',
+        allowNull: true,
+        type:   Sequelize.DataTypes.DATE
+    },
+    updatedAt: {
+        field: 'updatedAt',
+        allowNull: true,
+        type:   Sequelize.DataTypes.DATE
+    }
+}, {
+    tableName: 'users',
+    hooks: {
+        beforeCreate: (user) => {
+            const salt = bcrypt.genSaltSync();
+            user.password = bcrypt.hashSync(user.password, salt);
+        },
+        beforeUpdate: (user) => {
+            const salt = bcrypt.genSaltSync();
+            user.password = bcrypt.hashSync(user.password, salt);
+        }
+    }
+});
+module.exports = User;

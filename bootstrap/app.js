@@ -20,8 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 //  apply limiter to all requests
-app.use(kernel.session_middleware);
-app.use(kernel.throttle_middleware);
+app.use(kernel.start_session_middleware);
 
 // helmet ( disable response headers example: X-Powered-By )
 app.use(helmet());
@@ -31,7 +30,7 @@ app.use(cookieParser());
 
 // support cores ( you know what it mean )
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Routes
 app.use(appRouters);
